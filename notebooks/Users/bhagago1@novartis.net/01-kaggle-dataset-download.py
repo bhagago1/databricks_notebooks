@@ -19,7 +19,7 @@
 
 # Replace with your storage account name
 storageAccountName = "synapsestorageacct2"
-storageAccountAccessKey = "FejRHdbsSd/wBELPikTfrNx3VigIwDxSkrBA1RHpPG7GN8ek0jhUvx6KyU68CS25Mr7OPkG4C+TIqaqT+nPUug=="
+storageAccountAccessKey = ""
 
 # COMMAND ----------
 
@@ -70,7 +70,7 @@ dbutils.fs.mkdirs("/mnt/bronze/us-census-demographic-data")
 # Store Kaggle Credentials
 import os
 os.environ['KAGGLE_USERNAME'] = "gopinathbhagavathula"
-os.environ['KAGGLE_KEY'] = "4dc66159bf7b45c0d4e158f264926612"
+os.environ['KAGGLE_KEY'] = ""
 
 # COMMAND ----------
 
